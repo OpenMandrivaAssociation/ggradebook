@@ -14,7 +14,6 @@ Source3: 	%{name}16.png
 URL:		http://www.gnu.org/software/ggradebook/
 License:	GPL
 Group:		Office
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	libgnome-devel
 
 %description
