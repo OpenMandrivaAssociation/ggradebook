@@ -34,10 +34,6 @@ rm -rf $RPM_BUILD_ROOT
 %makeinstall
 
 #mdk menu
-mkdir -p $RPM_BUILD_ROOT%{_menudir}
-cat << EOF > $RPM_BUILD_ROOT%{_menudir}/%{name}
-?package(%{name}): command="%{name}" icon="%{name}.png" needs="x11" title="GNU Gradebook" longtitle="Teacher's gradebook" section="Office/Accessories" xdg="true"
-EOF
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/applications
 cat > $RPM_BUILD_ROOT%{_datadir}/applications/mandriva-%{name}.desktop << EOF
@@ -75,7 +71,6 @@ rm -rf $RPM_BUILD_ROOT
 %_bindir/%name
 %_datadir/Ggradebook
 %{_datadir}/applications/mandriva-%{name}.desktop
-%_menudir/%name
 %_liconsdir/%name.png
 %_iconsdir/%name.png
 %_miconsdir/%name.png
