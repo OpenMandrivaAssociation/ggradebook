@@ -21,7 +21,7 @@ BuildRequires:	libgnome-devel
 Ggradebook is the fully-featured GNU gradebook, an application for tracking
 student grades for teachers. It uses GTK+ and can optionally be compiled to
 use GNOME.
-                                                                                               
+
 %prep
 %setup -q -n Ggradebook-%version
 
