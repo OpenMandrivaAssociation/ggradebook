@@ -1,6 +1,6 @@
 %define name	ggradebook
 %define version 0.91
-%define release %mkrel 4
+%define release %mkrel 6
 
 Summary:	The GNU teacher's gradebook
 Name:		%{name}
