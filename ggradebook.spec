@@ -11,7 +11,7 @@ Source:		%{name}-%{version}.tar.bz2
 Source1: 	%{name}48.png
 Source2: 	%{name}32.png
 Source3: 	%{name}16.png
-URL:		http://www.gnu.org/software/ggradebook/
+URL:		https://www.gnu.org/software/ggradebook/
 License:	GPL
 Group:		Office
 BuildRoot:	%{_tmppath}/%{name}-buildroot
